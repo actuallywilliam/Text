@@ -1,0 +1,25 @@
+package com.text.main;
+
+import java.awt.BorderLayout;
+import java.awt.Frame;
+import java.awt.TextField;
+
+import javax.swing.JFrame;
+
+public class Text {
+	
+	public static int HEIGHT = 500;
+	public static int WIDTH = 1000;
+	
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Text Editor");
+        frame.add(new TextField("Write Something!"));
+        frame.setSize(400, 100);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
+        
+	}
+	
+	
+}
